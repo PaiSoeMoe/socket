@@ -1,0 +1,120 @@
+.active{
+    display: none !important;
+}
+
+
+.new-ms{
+    display: inline-block !important;
+}
+
+
+// sign up
+
+.sign-up{
+     z-index: 1; position:absolute; top:0; left:0;  min-width: 100vw; min-height: 100vh; display:flex; justify-content: center; align-items: center; background-color: #dfbaf7; 
+}
+
+.sign-up-container{
+    width: 400px;
+}
+.sign-up-icon{
+    min-width:100%; min-height:250px; position: relative;
+    img{
+        width: 200px; margin:auto; position: absolute; left:50%; transform:translateX(-50%)
+    }
+
+}
+
+// sign up end 
+
+
+// header
+
+header{
+    background-color:#DFBAF7; padding:0.5em 0; font-family: Roboto;
+    font-style: normal;
+    font-weight: 500; color:rgb(255, 255, 255); font-size: 20px;
+        nav{
+        max-width: 1200px; display:flex; justify-content: space-between;  margin:0 auto;
+
+
+        ul{
+            display:flex; list-style: none; justify-content: space-between; width:40%; align-items: center; text-decoration: none;
+        }
+    }
+}
+
+.logo{
+    width:60px; height:60px; overflow:hidden; margin-left: 1em;
+}
+.user{
+width:15%; display:flex; margin-right:1em;
+}
+
+.user-img{
+    width:50px; height:50px; overflow:hidden; border-radius:50%; 
+}
+
+// header end
+
+
+
+
+// chat
+
+.main-container{
+    max-width: 1200px; display:flex; margin: 50px  auto 0 auto; justify-content: space-evenly;
+}
+
+.accounts{
+    width: 30%; border: 1px solid rgb(212, 212, 212);
+}
+
+.friend{
+    list-style: none; cursor:pointer; display:flex; align-items: center; position: relative;
+    img{
+        width:30px; margin:1em;
+    }
+
+    span{
+         display:none; position: absolute; min-width:20px; border-radius: 50%; padding:0.5em; font-size: 0.5em; color:white; background-color: red; right:1em; text-align: center;
+    }
+}
+
+.chat{
+    width: 65%;
+}
+
+.messages{
+    border:1px solid rgb(212, 212, 212); min-height: 60vh;
+    max-height: 60vh;
+    overflow-y: scroll;
+    ul{
+        li{
+            list-style: none; margin:1em 1em;
+            span{
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.chat-info{
+    width: 300px; margin:0 auto; display:flex; flex-direction:column; align-items: center;
+    img{
+        width:30px; margin:1em;
+    }
+}
+
+.type-area{
+    display:flex; justify-content: space-between; margin-top: 1em;
+    input{
+        width: calc( 70% - 1em ); padding: 0.5em; border:1px solid rgb(212, 212, 212);
+    }
+}
+
+.send{
+    width:30%; background-color: #ba83de; color:rgb(255, 255, 255); font-weight:bold; border:none
+}
+
+// chat
